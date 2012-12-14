@@ -1,0 +1,21 @@
+{
+  "name": "iTaiwan Radio",
+  "version": "1.3",
+  "manifest_version": 2,
+  "description": "A Simple Radio Tuner Plug-in For Google Chrome That Allows You Listen Radios From Taiwan.",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+  "128": "icon_128.png"
+  },
+  "content_security_policy": "script-src 'self' https://example.com; object-src 'self'",
+  "permissions": [
+    "background",
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
